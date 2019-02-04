@@ -13,7 +13,7 @@ DESC
   s.screenshots      = 'https://github.com/jobandtalent/AnimatedTextInput/raw/master/Assets/general.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor Baro' => 'fs.baro@gmail.com' }
-  s.source           = { :git => 'https://github.com/jobandtalent/AnimatedTextInput.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fitmo/AnimatedTextInput', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/jobandtalentEng'
 
   s.ios.deployment_target = '8.0'
