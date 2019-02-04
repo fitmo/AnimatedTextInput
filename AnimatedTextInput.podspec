@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedTextInput'
-  s.version          = '0.5.6'
+  s.version          = '0.5.7'
   s.summary          = 'UITextField and UITextView replacement with animated hint and error message support. Highly customizable. Used in Jobandtalent iOS app'
 
   s.description      = <<-DESC
@@ -9,8 +9,8 @@ This custom control can be used as a replacement for UITextField or UITextView. 
 The animation consists on the placeholder becoming the hint. This control also allows for error state, showing an error message hint.
 DESC
 
-  s.homepage         = 'https://github.com/jobandtalent/AnimatedTextInput'
-  s.screenshots      = 'https://github.com/jobandtalent/AnimatedTextInput/raw/master/Assets/general.gif'
+  s.homepage         = 'https://github.com/fitmo/AnimatedTextInput'
+  s.screenshots      = 'https://github.com/fitmo/AnimatedTextInput/raw/master/Assets/general.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor Baro' => 'fs.baro@gmail.com' }
   s.source           = { :git => 'https://github.com/fitmo/AnimatedTextInput', :tag => s.version.to_s }
