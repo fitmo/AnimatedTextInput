@@ -130,6 +130,7 @@ fileprivate struct AnimatedTextInputCustomSelectionConfigurator {
         }
 
         let arrowImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 26, height: 26))
+        arrowImageView.image = rightViewImage
         arrowImageView.contentMode = .scaleAspectFit
 
         textField.rightView = arrowImageView
