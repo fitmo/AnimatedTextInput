@@ -65,7 +65,7 @@ open class AnimatedTextInput: UIControl {
     
     open var placeholderAlignment: CATextLayer.Alignment = .natural {
         didSet {
-            placeholderLayer.alignmentMode = convertToCATextLayerAlignmentMode(String(describing: placeholderAlignment))
+            placeholderLayer.alignmentMode = CATextLayerAlignmentMode(rawValue: String(describing: placeholderAlignment))
         }
     }
 
@@ -635,10 +635,4 @@ fileprivate extension Dictionary {
         for (key, value) in dict { self[key] = value }
         return self
     }
-}
-
-
-// Helper function inserted by Swift 4.2 migrator.
-fileprivate func convertToCATextLayerAlignmentMode(_ input: String) -> CATextLayerAlignmentMode {
-	return CATextLayerAlignmentMode(rawValue: input)
 }
